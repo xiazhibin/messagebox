@@ -1,0 +1,44 @@
+# For frontend
+node_modules
+/origino_cms/static
+/origino_cms/templates
+rev-manifest.json
+frontend/target
+uf.sh
+
+
+# For OS generated
+.DS_Store
+.DS_Store?
+._*
+frontend/.idea/
+/frontend/src/multi/*/*/single.less
+
+# For develop environment
+/.idea
+/.vscode
+
+
+# For pyenv
+.python-version
+
+
+# For python
+*.pyc
+*.pyo
+/.cache
+/instance
+test.py
+test2.py
+/*.json
+test*.py
+
+
+# For log
+log
+*.log
+/log
+
+
+# For capistrano
+/config/shared
